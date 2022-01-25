@@ -1,1 +1,2 @@
 CLASS net/minecraft/a/a/b/v net/minecraft/game/world/block/BlockMushroom
+	METHOD b canThisPlantGrowOnThisBlockID (I)Z

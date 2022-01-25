@@ -1,5 +1,11 @@
 CLASS net/minecraft/a/a/b/ag net/minecraft/game/world/block/BlockFire
 	FIELD a chanceToEncourageFire [I
 	FIELD b abilityToCatchFire [I
+	METHOD a getRenderType ()I
+	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a canPlaceBlockAt (Lnet/minecraft/a/a/f;III)Z
+	METHOD b isOpaqueCube ()Z
+	METHOD c renderAsNormalBlock ()Z
 	METHOD c initializeBlock (III)V
-	METHOD d canBlockCatchFire (Lnet/minecraft/a/a/e;III)Z
+	METHOD d isCollidable ()Z

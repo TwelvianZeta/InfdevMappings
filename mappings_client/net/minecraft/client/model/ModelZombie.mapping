@@ -1,1 +1,2 @@
 CLASS net/minecraft/client/b/g net/minecraft/client/model/ModelZombie
+	METHOD b setRotationAngles (FFFFFF)V

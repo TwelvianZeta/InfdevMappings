@@ -5,7 +5,13 @@ CLASS net/minecraft/a/c/e/b net/minecraft/game/entity/player/InventoryPlayer
 	FIELD d player Lnet/minecraft/a/c/e/a;
 	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 entityPlayer
+	METHOD a getSizeInventory ()I
+	METHOD a getStackInSlot (I)Lnet/minecraft/a/b/k;
+	METHOD a decrStackSize (II)Lnet/minecraft/a/b/k;
+	METHOD a setInventorySlotContents (ILnet/minecraft/a/b/k;)V
+	METHOD b getInvName ()Ljava/lang/String;
 	METHOD b getFirstEmptyStack (I)V
+	METHOD c getInventoryStackLimit ()I
 	METHOD c consumeInventoryItem (I)Z
 	METHOD d getCurrentItem ()Lnet/minecraft/a/b/k;
 	METHOD d getInventorySlotContainItem (I)I

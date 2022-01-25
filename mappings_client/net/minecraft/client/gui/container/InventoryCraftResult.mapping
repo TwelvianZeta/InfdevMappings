@@ -1,2 +1,8 @@
 CLASS net/minecraft/client/c/a/h net/minecraft/client/gui/container/InventoryCraftResult
 	FIELD a stackResult [Lnet/minecraft/a/b/k;
+	METHOD a getSizeInventory ()I
+	METHOD a getStackInSlot (I)Lnet/minecraft/a/b/k;
+	METHOD a decrStackSize (II)Lnet/minecraft/a/b/k;
+	METHOD a setInventorySlotContents (ILnet/minecraft/a/b/k;)V
+	METHOD b getInvName ()Ljava/lang/String;
+	METHOD c getInventoryStackLimit ()I

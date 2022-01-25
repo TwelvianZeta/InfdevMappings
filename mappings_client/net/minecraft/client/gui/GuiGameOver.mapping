@@ -1,1 +1,6 @@
 CLASS net/minecraft/client/c/d net/minecraft/client/gui/GuiGameOver
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lnet/minecraft/client/c/r;)V
+	METHOD b initGui ()V
+	METHOD c doesGuiPauseGame ()Z

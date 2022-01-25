@@ -6,3 +6,11 @@ CLASS net/minecraft/client/d/b net/minecraft/client/controller/PlayerControllerS
 	FIELD g prevBlockDamage F
 	FIELD h blockDestroySoundCounter F
 	FIELD i blockHitWait I
+	METHOD a resetBlockRemoving ()V
+	METHOD a setPartialTime (F)V
+	METHOD a clickBlock (III)V
+	METHOD a sendBlockRemoving (IIII)V
+	METHOD b getBlockReachDistance ()F
+	METHOD b sendBlockRemoved (III)Z
+	METHOD c onRespawn ()V
+	METHOD d onUpdate ()V

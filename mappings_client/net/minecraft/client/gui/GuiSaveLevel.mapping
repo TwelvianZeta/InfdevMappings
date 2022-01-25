@@ -1,1 +1,6 @@
 CLASS net/minecraft/client/c/o net/minecraft/client/gui/GuiSaveLevel
+	METHOD a openLevel (I)V
+	METHOD a openLevel (Ljava/io/File;)V
+	METHOD a setLevels ([Ljava/lang/String;)V
+	METHOD b initGui ()V
+	METHOD e saveFileDialog ()Ljava/awt/FileDialog;

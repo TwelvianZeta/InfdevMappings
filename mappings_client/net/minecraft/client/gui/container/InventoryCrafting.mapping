@@ -4,3 +4,9 @@ CLASS net/minecraft/client/c/a/a net/minecraft/client/gui/container/InventoryCra
 	FIELD c eventHandler Lnet/minecraft/client/c/a/j;
 	METHOD <init> (Lnet/minecraft/client/c/a/j;II)V
 		ARG 1 guiContainer
+	METHOD a getSizeInventory ()I
+	METHOD a getStackInSlot (I)Lnet/minecraft/a/b/k;
+	METHOD a decrStackSize (II)Lnet/minecraft/a/b/k;
+	METHOD a setInventorySlotContents (ILnet/minecraft/a/b/k;)V
+	METHOD b getInvName ()Ljava/lang/String;
+	METHOD c getInventoryStackLimit ()I

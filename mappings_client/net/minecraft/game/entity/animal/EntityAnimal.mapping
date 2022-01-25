@@ -1,1 +1,2 @@
 CLASS net/minecraft/a/c/b/a net/minecraft/game/entity/animal/EntityAnimal
+	METHOD a getBlockPathWeight (III)F

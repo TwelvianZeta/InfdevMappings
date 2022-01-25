@@ -1,7 +1,4 @@
 CLASS net/minecraft/a/d/a net/minecraft/game/physics/Vec3D
-	FIELD a xCoord D
-	FIELD b yCoord D
-	FIELD c zCoord D
 	METHOD a normalize ()Lnet/minecraft/a/d/a;
 	METHOD a addVector (DDD)Lnet/minecraft/a/d/a;
 	METHOD a subtract (Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/a;

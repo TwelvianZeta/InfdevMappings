@@ -1,3 +1,12 @@
 CLASS net/minecraft/a/a/b/p net/minecraft/game/world/block/BlockFluid
 	FIELD a stillId I
 	FIELD b movingId I
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b isOpaqueCube ()Z
+	METHOD b getBlockBrightness (Lnet/minecraft/a/a/f;III)F
+	METHOD c renderAsNormalBlock ()Z
+	METHOD c shouldSideBeRendered (Lnet/minecraft/a/a/f;IIII)Z
+	METHOD d isCollidable ()Z
+	METHOD e getRenderBlockPass ()I

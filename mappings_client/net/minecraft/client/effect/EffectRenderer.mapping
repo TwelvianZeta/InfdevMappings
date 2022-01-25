@@ -6,5 +6,4 @@ CLASS net/minecraft/client/f/d net/minecraft/client/effect/EffectRenderer
 	METHOD a addBlockDestroyEffects (III)V
 	METHOD a addBlockHitEffects (IIII)V
 	METHOD a renderParticles (Lnet/minecraft/a/c/b;F)V
-		ARG 1 particle
 	METHOD b getStatistics ()Ljava/lang/String;

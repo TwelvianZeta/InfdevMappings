@@ -7,3 +7,9 @@ CLASS net/minecraft/client/c/p net/minecraft/client/gui/GuiNameLevel
 	METHOD <init> (Lnet/minecraft/client/c/i;Ljava/lang/String;I)V
 		ARG 2 name
 		ARG 3 id
+	METHOD a onGuiClosed ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lnet/minecraft/client/c/r;)V
+	METHOD b initGui ()V
+	METHOD e_ updateScreen ()V

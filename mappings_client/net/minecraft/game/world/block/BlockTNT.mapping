@@ -2,3 +2,6 @@ CLASS net/minecraft/a/a/b/h net/minecraft/game/world/block/BlockTNT
 	METHOD <init> (II)V
 		ARG 1 blockID
 		ARG 2 textureSlot
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b onBlockDestroyedByPlayer (Lnet/minecraft/a/a/f;IIII)V

@@ -3,3 +3,4 @@ CLASS net/minecraft/client/a/c/c net/minecraft/client/render/texture/TextureGear
 	FIELD f gearColor [I
 	FIELD g gearMiddleColor [I
 	FIELD h gearRotationDir I
+	METHOD a onTick ()V

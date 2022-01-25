@@ -4,3 +4,4 @@ CLASS net/minecraft/client/a/c/a net/minecraft/client/render/texture/TextureWate
 	FIELD g blue [F
 	FIELD h alpha [F
 	FIELD i tickCounter I
+	METHOD a onTick ()V

@@ -1,3 +1,9 @@
 CLASS net/minecraft/a/a/b/m net/minecraft/game/world/block/BlockFlowing
-	FIELD ay stillId1 I
-	FIELD az movingId1 I
+	FIELD aA movingId1 I
+	FIELD az stillId1 I
+	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b isOpaqueCube ()Z
+	METHOD c shouldSideBeRendered (Lnet/minecraft/a/a/f;IIII)Z
+	METHOD d isCollidable ()Z
+	METHOD e getRenderBlockPass ()I

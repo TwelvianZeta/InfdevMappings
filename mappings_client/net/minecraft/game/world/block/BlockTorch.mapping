@@ -2,3 +2,10 @@ CLASS net/minecraft/a/a/b/ac net/minecraft/game/world/block/BlockTorch
 	METHOD <init> (II)V
 		ARG 1 blockID
 		ARG 2 textureSlot
+	METHOD a getRenderType ()I
+	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
+	METHOD a canPlaceBlockAt (Lnet/minecraft/a/a/f;III)Z
+	METHOD a collisionRayTrace (Lnet/minecraft/a/a/f;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+	METHOD b isOpaqueCube ()Z
+	METHOD c renderAsNormalBlock ()Z
+	METHOD e onBlockPlaced (Lnet/minecraft/a/a/f;IIII)V

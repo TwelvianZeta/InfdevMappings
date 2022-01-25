@@ -1,1 +1,3 @@
 CLASS net/minecraft/client/a/a/m net/minecraft/client/render/entity/RenderSpider
+	METHOD a getDeathMaxRotation (Lnet/minecraft/a/c/e;)F
+	METHOD a shouldRenderPass (Lnet/minecraft/a/c/e;I)Z

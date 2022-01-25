@@ -4,3 +4,4 @@ CLASS net/minecraft/a/c/c net/minecraft/game/entity/EntityCreature
 	METHOD a getBlockPathWeight (III)F
 	METHOD a attackEntity (Lnet/minecraft/a/c/b;F)V
 		ARG 1 entity
+	METHOD d updateEntityActionState ()V

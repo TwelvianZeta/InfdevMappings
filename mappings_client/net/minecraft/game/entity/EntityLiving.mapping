@@ -24,8 +24,12 @@ CLASS net/minecraft/a/c/e net/minecraft/game/entity/EntityLiving
 	FIELD al isJumping Z
 	FIELD am moveSpeed F
 	FIELD b prevRotationYawHead F
+	METHOD a setSize (FF)V
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
+	METHOD b fall (F)V
 	METHOD b heal (I)V
 	METHOD d updateEntityActionState ()V
 	METHOD e updatePlayerActionState ()V
 	METHOD g getLivingSound ()Ljava/lang/String;
 	METHOD h getHurtSound ()Ljava/lang/String;
+	METHOD p canBePushed ()Z

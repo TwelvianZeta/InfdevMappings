@@ -1,1 +1,3 @@
 CLASS net/minecraft/a/a/d/a net/minecraft/game/world/material/MaterialLogic
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z

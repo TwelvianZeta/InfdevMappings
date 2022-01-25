@@ -2,3 +2,5 @@ CLASS net/minecraft/client/c/a/e net/minecraft/client/gui/container/SlotArmor
 	FIELD e armorType I
 	METHOD <init> (Lnet/minecraft/client/c/a/f;Lnet/minecraft/client/c/a/j;Lnet/minecraft/a/b;IIII)V
 		ARG 7 armorType
+	METHOD a isItemValid (Lnet/minecraft/a/b/k;)Z
+	METHOD b getBackgroundIconIndex ()I

@@ -1,2 +1,7 @@
 CLASS net/minecraft/a/a/b/ai net/minecraft/game/world/block/BlockStep
 	FIELD a blockType Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD b isOpaqueCube ()Z
+	METHOD c renderAsNormalBlock ()Z
+	METHOD c shouldSideBeRendered (Lnet/minecraft/a/a/f;IIII)Z

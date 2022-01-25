@@ -4,6 +4,7 @@ CLASS net/minecraft/a/c/a net/minecraft/game/entity/EntityPainting
 	FIELD Q yPosition I
 	FIELD a direction I
 	FIELD b art Lnet/minecraft/a/c/d;
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
 	METHOD b setDirection (I)V
 		ARG 1 direction
 	METHOD c getArtSize (I)F

@@ -2,3 +2,9 @@ CLASS net/minecraft/a/a/b/k net/minecraft/game/world/block/BlockGears
 	METHOD <init> (II)V
 		ARG 1 blockID
 		ARG 2 textureSlot
+	METHOD a getRenderType ()I
+	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b isOpaqueCube ()Z
+	METHOD c renderAsNormalBlock ()Z
+	METHOD d isCollidable ()Z

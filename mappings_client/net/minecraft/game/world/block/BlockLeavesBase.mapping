@@ -4,3 +4,5 @@ CLASS net/minecraft/a/a/b/g net/minecraft/game/world/block/BlockLeavesBase
 		ARG 1 blockID
 		ARG 2 textureSlot
 		ARG 3 material
+	METHOD b isOpaqueCube ()Z
+	METHOD c shouldSideBeRendered (Lnet/minecraft/a/a/f;IIII)Z

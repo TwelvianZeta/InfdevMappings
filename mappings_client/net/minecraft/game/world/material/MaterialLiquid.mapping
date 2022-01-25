@@ -1,1 +1,3 @@
 CLASS net/minecraft/a/a/d/b net/minecraft/game/world/material/MaterialLiquid
+	METHOD a isSolid ()Z
+	METHOD c getIsSolid ()Z

@@ -4,3 +4,4 @@ CLASS net/minecraft/client/a/a/g net/minecraft/client/render/entity/RenderPlayer
 	FIELD g modelArmor Lnet/minecraft/client/b/h;
 	FIELD h armorFilenamePrefix [Ljava/lang/String;
 	METHOD a drawFirstPersonHand ()V
+	METHOD a shouldRenderPass (Lnet/minecraft/a/c/e;I)Z

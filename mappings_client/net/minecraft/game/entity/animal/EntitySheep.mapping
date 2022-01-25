@@ -1,2 +1,5 @@
 CLASS net/minecraft/a/c/b/b net/minecraft/game/entity/animal/EntitySheep
 	FIELD a sheared Z
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
+	METHOD g getLivingSound ()Ljava/lang/String;
+	METHOD h getHurtSound ()Ljava/lang/String;

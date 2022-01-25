@@ -1,2 +1,1 @@
 CLASS net/minecraft/client/a/j net/minecraft/client/render/EntitySorter
-	FIELD a player Lnet/minecraft/a/c/e/a;

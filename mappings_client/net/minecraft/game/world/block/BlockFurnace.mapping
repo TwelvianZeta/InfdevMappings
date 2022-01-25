@@ -3,3 +3,6 @@ CLASS net/minecraft/a/a/b/s net/minecraft/game/world/block/BlockFurnace
 	METHOD <init> (IZ)V
 		ARG 1 blockID
 		ARG 2 status
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTexture (Lnet/minecraft/a/a/f;IIII)I
+	METHOD a blockActivated (Lnet/minecraft/a/a/f;IIILnet/minecraft/a/c/e/a;)Z

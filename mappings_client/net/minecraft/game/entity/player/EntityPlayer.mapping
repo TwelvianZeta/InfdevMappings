@@ -13,4 +13,7 @@ CLASS net/minecraft/a/c/e/a net/minecraft/game/entity/player/EntityPlayer
 		ARG 1 itemStack
 	METHOD a displayGUIChest (Lnet/minecraft/a/b;)V
 		ARG 1 iInventory
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
+	METHOD e updatePlayerActionState ()V
 	METHOD f_ displayWorkbenchGUI ()V
+	METHOD i preparePlayerToSpawn ()V

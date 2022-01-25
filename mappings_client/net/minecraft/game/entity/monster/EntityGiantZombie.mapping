@@ -1,1 +1,2 @@
 CLASS net/minecraft/a/c/a/a net/minecraft/game/entity/monster/EntityGiantZombie
+	METHOD a getBlockPathWeight (III)F

@@ -3,3 +3,4 @@ CLASS net/minecraft/client/a/c/d net/minecraft/client/render/texture/TextureLava
 	FIELD f green [F
 	FIELD g blue [F
 	FIELD h alpha [F
+	METHOD a onTick ()V

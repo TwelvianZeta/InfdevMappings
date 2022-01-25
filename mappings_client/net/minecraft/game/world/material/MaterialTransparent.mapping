@@ -1,1 +1,3 @@
 CLASS net/minecraft/a/a/d/d net/minecraft/game/world/material/MaterialTransparent
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z

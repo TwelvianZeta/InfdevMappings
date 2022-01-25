@@ -5,3 +5,5 @@ CLASS net/minecraft/a/a/b/ae net/minecraft/game/world/block/BlockBreakable
 		ARG 2 textureSlot
 		ARG 3 material
 		ARG 4 localFlag
+	METHOD b isOpaqueCube ()Z
+	METHOD c shouldSideBeRendered (Lnet/minecraft/a/a/f;IIII)Z

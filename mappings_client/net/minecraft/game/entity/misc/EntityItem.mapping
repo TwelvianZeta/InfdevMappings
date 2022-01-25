@@ -2,3 +2,5 @@ CLASS net/minecraft/a/c/c/b net/minecraft/game/entity/misc/EntityItem
 	FIELD Q unknownEntityItemInt I
 	FIELD a item Lnet/minecraft/a/b/k;
 	FIELD b age I
+	METHOD a dealFireDamage (I)V
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z

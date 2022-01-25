@@ -1,3 +1,9 @@
 CLASS net/minecraft/a/a/b/ab net/minecraft/game/world/block/BlockFarmland
 	METHOD <init> (I)V
 		ARG 1 blockID
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD b isOpaqueCube ()Z
+	METHOD c renderAsNormalBlock ()Z
+	METHOD c onEntityWalking (Lnet/minecraft/a/a/f;III)V

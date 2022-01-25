@@ -1,1 +1,2 @@
 CLASS net/minecraft/client/f/f net/minecraft/client/effect/EntitySplashFX
+	METHOD a getEntityBrightness (F)F

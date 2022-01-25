@@ -8,4 +8,7 @@ CLASS net/minecraft/client/c/n net/minecraft/client/gui/GuiNewLevel
 	FIELD n selectedWorldShape I
 	FIELD o selectedWorldSize I
 	FIELD p selectedWorldTheme I
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lnet/minecraft/client/c/r;)V
+	METHOD b initGui ()V
 	METHOD e worldOptions ()V

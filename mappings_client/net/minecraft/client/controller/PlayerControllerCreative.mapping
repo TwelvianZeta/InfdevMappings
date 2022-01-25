@@ -1,1 +1,4 @@
 CLASS net/minecraft/client/d/c net/minecraft/client/controller/PlayerControllerCreative
+	METHOD a onRespawn (Lnet/minecraft/a/c/e/a;)V
+	METHOD d onUpdate ()V
+	METHOD e shouldDrawHUD ()Z

@@ -1,4 +1,9 @@
 CLASS net/minecraft/client/g/a net/minecraft/client/player/EntityPlayerSP
 	FIELD a movementInput Lnet/minecraft/client/g/b;
 	FIELD an mc Lnet/minecraft/client/d;
+	METHOD a displayGUIFurnace (Lnet/minecraft/a/a/b/a/b;)V
+	METHOD a displayGUIChest (Lnet/minecraft/a/b;)V
+	METHOD d updateEntityActionState ()V
+	METHOD e updatePlayerActionState ()V
+	METHOD f_ displayWorkbenchGUI ()V
 	METHOD g_ destroyCurrentEquippedItem ()V

@@ -5,7 +5,6 @@ CLASS net/minecraft/a/d/b net/minecraft/game/physics/AxisAlignedBB
 	FIELD d maxX D
 	FIELD e maxY D
 	FIELD f maxZ D
-	FIELD g epsilon D
 	METHOD a copy ()Lnet/minecraft/a/d/b;
 	METHOD a addCoord (DDD)Lnet/minecraft/a/d/b;
 	METHOD a isVecInYZ (Lnet/minecraft/a/d/a;)Z
@@ -18,7 +17,7 @@ CLASS net/minecraft/a/d/b net/minecraft/game/physics/AxisAlignedBB
 	METHOD b isVecInXZ (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD b calculateYOffset (Lnet/minecraft/a/d/b;D)D
-	METHOD c offset (DDD)V
 	METHOD c isVecInXY (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD c calculateZOffset (Lnet/minecraft/a/d/b;D)D
+	METHOD d offset (DDD)V

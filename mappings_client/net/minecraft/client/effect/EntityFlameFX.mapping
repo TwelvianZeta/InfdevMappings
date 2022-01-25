@@ -1,1 +1,2 @@
 CLASS net/minecraft/client/f/c net/minecraft/client/effect/EntityFlameFX
+	METHOD a getEntityBrightness (F)F

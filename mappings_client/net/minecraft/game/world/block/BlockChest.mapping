@@ -1,4 +1,7 @@
 CLASS net/minecraft/a/a/b/a net/minecraft/game/world/block/BlockChest
 	METHOD <init> (I)V
 		ARG 1 blockID
-	METHOD d isThereANeighborChest (Lnet/minecraft/a/a/e;III)Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a canPlaceBlockAt (Lnet/minecraft/a/a/f;III)Z
+	METHOD a getBlockTexture (Lnet/minecraft/a/a/f;IIII)I
+	METHOD a blockActivated (Lnet/minecraft/a/a/f;IIILnet/minecraft/a/c/e/a;)Z

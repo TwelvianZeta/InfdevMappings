@@ -2,3 +2,7 @@ CLASS net/minecraft/client/c/m net/minecraft/client/gui/GuiControls
 	FIELD a parentScreen Lnet/minecraft/client/c/i;
 	FIELD i screenTitle Ljava/lang/String;
 	FIELD k buttonId I
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lnet/minecraft/client/c/r;)V
+	METHOD b initGui ()V

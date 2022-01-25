@@ -8,7 +8,11 @@ CLASS net/minecraft/client/c/e net/minecraft/client/gui/GuiLoadLevel
 	FIELD n frozen Z
 	FIELD o selectedFile Ljava/io/File;
 	METHOD a openLevel (I)V
+	METHOD a drawScreen (IIF)V
 	METHOD a openLevel (Ljava/io/File;)V
 	METHOD a unknown (Lnet/minecraft/client/c/e;Z)Z
+	METHOD a actionPerformed (Lnet/minecraft/client/c/r;)V
 	METHOD a setLevels ([Ljava/lang/String;)V
+	METHOD b initGui ()V
 	METHOD e saveFileDialog ()Ljava/awt/FileDialog;
+	METHOD e_ updateScreen ()V

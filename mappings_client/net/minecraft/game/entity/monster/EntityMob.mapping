@@ -1,2 +1,6 @@
 CLASS net/minecraft/a/c/a/e net/minecraft/game/entity/monster/EntityMob
 	FIELD a attackStrength I
+	METHOD a getBlockPathWeight (III)F
+	METHOD a attackEntity (Lnet/minecraft/a/c/b;F)V
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
+	METHOD e updatePlayerActionState ()V

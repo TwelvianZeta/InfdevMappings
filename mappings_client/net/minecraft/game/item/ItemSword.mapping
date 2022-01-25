@@ -2,3 +2,7 @@ CLASS net/minecraft/a/b/c net/minecraft/game/item/ItemSword
 	METHOD <init> (II)V
 		ARG 1 itemID
 		ARG 2 damage
+	METHOD a getDamageVsEntity ()I
+	METHOD a hitEntity (Lnet/minecraft/a/b/k;)V
+	METHOD b getStrVsBlock (Lnet/minecraft/a/a/b/x;)F
+	METHOD b onBlockDestroyed (Lnet/minecraft/a/b/k;)V

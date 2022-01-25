@@ -10,3 +10,5 @@ CLASS net/minecraft/client/b/e net/minecraft/client/model/ModelSpider
 	FIELD i spiderLeg6 Lnet/minecraft/client/b/c;
 	FIELD j spiderLeg7 Lnet/minecraft/client/b/c;
 	FIELD k spiderLeg8 Lnet/minecraft/client/b/c;
+	METHOD a render (FFFFFF)V
+	METHOD b setRotationAngles (FFFFFF)V

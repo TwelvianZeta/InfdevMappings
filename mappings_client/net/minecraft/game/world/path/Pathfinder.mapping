@@ -1,5 +1,4 @@
 CLASS net/minecraft/a/a/a/c net/minecraft/game/world/path/Pathfinder
-	FIELD a worldMap Lnet/minecraft/a/a/e;
 	FIELD b path Lnet/minecraft/a/a/a/d;
 	FIELD c pointMap Ljava/util/Map;
 	FIELD d pathOptions [Lnet/minecraft/a/a/a/a;

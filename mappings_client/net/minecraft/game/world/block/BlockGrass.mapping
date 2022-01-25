@@ -1,3 +1,5 @@
 CLASS net/minecraft/a/a/b/af net/minecraft/game/world/block/BlockGrass
 	METHOD <init> (I)V
 		ARG 1 blockID
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I

@@ -3,3 +3,5 @@ CLASS net/minecraft/client/c/a/c net/minecraft/client/gui/container/GuiFurnace
 	METHOD <init> (Lnet/minecraft/a/c/e/b;Lnet/minecraft/a/a/b/a/b;)V
 		ARG 1 playerInventory
 		ARG 2 furnace
+	METHOD d drawGuiContainerBackgroundLayer ()V
+	METHOD d_ guiCraftingItemsCheck ()V

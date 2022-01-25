@@ -19,7 +19,6 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD a playerController Lnet/minecraft/client/d/a;
 	FIELD b displayWidth I
 	FIELD c displayHeight I
-	FIELD d theWorld Lnet/minecraft/a/a/e;
 	FIELD e renderGlobal Lnet/minecraft/client/a/b;
 	FIELD f thePlayer Lnet/minecraft/client/g/a;
 	FIELD g effectRenderer Lnet/minecraft/client/f/d;
@@ -61,7 +60,6 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 		ARG 4 height
 	METHOD a setServer (Ljava/lang/String;I)V
 		ARG 1 string
-	METHOD a setLevel (Lnet/minecraft/a/a/e;)V
 	METHOD a displayGuiScreen (Lnet/minecraft/client/c/i;)V
 		ARG 1 guiScreen
 	METHOD b setIngameFocus ()V

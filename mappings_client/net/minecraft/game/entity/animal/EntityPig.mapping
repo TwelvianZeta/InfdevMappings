@@ -1,1 +1,3 @@
 CLASS net/minecraft/a/c/b/c net/minecraft/game/entity/animal/EntityPig
+	METHOD g getLivingSound ()Ljava/lang/String;
+	METHOD h getHurtSound ()Ljava/lang/String;

@@ -4,3 +4,7 @@ CLASS net/minecraft/a/b/g net/minecraft/game/item/ItemTool
 		ARG 2 baseDamage
 		ARG 3 damage
 		ARG 4 blocksEffected
+	METHOD a getDamageVsEntity ()I
+	METHOD a hitEntity (Lnet/minecraft/a/b/k;)V
+	METHOD b getStrVsBlock (Lnet/minecraft/a/a/b/x;)F
+	METHOD b onBlockDestroyed (Lnet/minecraft/a/b/k;)V

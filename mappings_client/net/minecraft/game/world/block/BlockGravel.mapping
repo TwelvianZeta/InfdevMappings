@@ -1,1 +1,2 @@
 CLASS net/minecraft/a/a/b/e net/minecraft/game/world/block/BlockGravel
+	METHOD a idDropped (ILjava/util/Random;)I

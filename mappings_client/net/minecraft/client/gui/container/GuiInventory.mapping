@@ -3,3 +3,7 @@ CLASS net/minecraft/client/c/a/f net/minecraft/client/gui/container/GuiInventory
 	FIELD l iInventory Lnet/minecraft/a/b;
 	FIELD m xSize_lo F
 	FIELD n ySize_lo F
+	METHOD a onGuiClosed ()V
+	METHOD a drawScreen (IIF)V
+	METHOD d drawGuiContainerBackgroundLayer ()V
+	METHOD d_ guiCraftingItemsCheck ()V
